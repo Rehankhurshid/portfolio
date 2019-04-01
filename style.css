@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+
+    margin: 25px;
+    background: #fff;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both; 
+}
+
+.top {
+    background-image: linear-gradient(to right bottom, rgba(32, 62, 84, 0.95),rgba(32, 62, 84, 0.95)), url(astro.jpg);
+    padding: 50px;
+    position: relative;
+    /* height: 1000px;; */
+}
+
+.left-name {
+    font-family: "Oswald", "Lato", "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: 15px;
+    color: #D8B16B;
+    float: left;
+}
+
+.right-contact {
+    font-family: "Oswald", "Lato", "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: 15px;
+    color: #ffffff;
+    float: right;
+}
+
+h1 {
+    font-family: 'Crete Round', serif;
+    margin-bottom: 25px;
+    color: #ffffff;
+    font-size: 54px;
+    letter-spacing: 2px;
+
+}
+.content-centered {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 100px;
+    width: 848px;
+}
+
+.para {
+    font-family: "Montserrat",serif;
+    color: #D8B16B;
+    letter-spacing: 4px;
+    line-height: 1.5;
+    margin-bottom: 35px;
+}
+
+.btn {
+    width: 250px;
+    font-family: "Oswald";
+    font-weight: 400;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    background: #fff;
+    color: #203E54;
+    border-radius: 47px;
+}
+
+.row2 {
+    margin-top: 25px;
+}
+
+.left-column {
+    float: left;
+    padding: 50px;
+    padding-right: 200px;
+    height: 390px;
+    width: 68.5%;
+    background-size: cover;
+    background-image: linear-gradient(to right bottom, rgba(216, 178, 107, 0.95) , rgba(216, 178, 107, 0.95)), url(day.jpg);
+}
+
+.heading {
+    font-family: 'Crete Round', serif;
+    font-weight: 700;
+    color: #203E54;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.par {font-family: "Montserrat",serif;
+    color: #203E54;
+    letter-spacing: 1.5px;
+    font-size: 17.5px;
+    line-height: 2;
+}
+
+.middle-logo {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.logo {
+    width: 100px;
+}
+
+.right-column {
+    float: right;
+    padding: 50px;
+    padding-right: 200px;
+    width: 28.5%;
+    height: inherit;
+    background-size: cover;
+    background-position: center;
+    height: 390px;
+    background-image: linear-gradient(to right bottom, rgba(32, 62, 84, 0.7),rgb(32, 62, 84, 0.7)), url(rehan.jpg);
+}
